@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Blog</title>
-  </head>
-  <body>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-    <div class="main">
-      <h1>About page</h1>
-      <p>This is the about page</p>
-    </div>
-  </body>
-</html>
+@extends('layout')
+
+@section('title', 'About us')
+
+@section('content')
+<h1>About page</h1>
+<p>This is the About page</p>
+@endsection
