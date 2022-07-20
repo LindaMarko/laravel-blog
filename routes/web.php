@@ -8,7 +8,6 @@ Route::get('/', [HomeController::class, 'home'])->name('home');
 
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 
-
 Route::resource('posts', PostController::class)->except([
     'index',
 ]);
